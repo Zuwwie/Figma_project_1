@@ -1,0 +1,318 @@
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  color: black;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+p {
+  margin: 0 0 1rem;
+}
+*,
+:before,
+:after {
+  box-sizing: border-box;
+}
+.container {
+  width: 100%;
+  max-width: 940px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin: 0 auto;
+}
+.header {
+  width: 100%;
+  height: 700px;
+  background-image: url(Img/Backgroundheader.png);
+  background-position: center;
+}
+.header_inner {
+  display: flex;
+  flex-wrap: wrap;
+}
+.header_nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem 4rem 3rem;
+}
+.header_logo {
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-weight: 2rem;
+}
+.btn {
+  text-decoration: none;
+  color: white;
+  border: none;
+  margin: 0;
+  padding: 0;
+  width: auto;
+  overflow: visible;
+  padding: 0.5rem 1rem;
+
+  background: transparent;
+
+  margin-left: 1rem;
+}
+.btn_sing {
+  border: 1px solid white;
+  border-radius: 1rem;
+  
+}
+.header_title {
+  width: 100%;
+  margin: 6rem auto 0;
+  font-size: 3.25rem;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+}
+.header_subtitle {
+  width: 100%;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: lighter;
+  text-align: center;
+  margin: 2rem auto;
+}
+.find_btn {
+  color: white;
+  font-weight: bold;
+  font-size: 0.8rem;
+  background-color: rgba(255, 0, 0, 0.758);
+  padding: 0.6rem 1.5rem;
+  text-align: center;
+  margin: auto;
+  border-radius: 2rem;
+}
+.steps {
+  padding-top: 4rem ;
+}
+.steps_title {
+  margin: auto;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding-bottom: 2rem;
+}
+.container_inner {
+  display: flex;
+  justify-content: space-around;
+}
+.step {
+  width: 30%;
+  height: 400px;
+  background-size: cover;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+justify-content: flex-end;
+}
+.step_btn {
+  padding: 0.2rem 0.5rem;
+  background-color: tomato;
+  border-radius: 1rem;
+  color: white;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+}
+.step_title {
+  color: aliceblue;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+.step_text {
+  color: aliceblue;
+  font-weight: lighter;
+  font-size: 1rem;
+  margin: 1rem 0;
+}
+.partrers_inner  {
+  padding: 2rem 0;
+  
+}
+.partners_title {
+  font-size: 1.5rem;
+  margin: auto;
+  width: 100%;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.partners_info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.partner {
+  width: 25%;
+  text-align: center;
+}
+.partner_photo {
+  /* max-width: 120px; */
+  height: 120px;
+  background-position: center;
+  padding-left: 141px;
+  padding-top: 88px;
+
+background-repeat: no-repeat;}
+.partner_name {
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 1rem 0;
+}
+.partner_description {
+  font-weight: lighter;
+  padding: 0 1rem;
+}
+.partner_hobby{
+  height: 2rem;
+  width: 2rem;
+ border-radius: 50%;
+ /* background-size: contain; */
+ /* margin-left: 180px;
+ margin-top: 180px; */
+ background-position: center;
+ background-repeat: no-repeat;
+}
+.activity_inner {
+  padding: 2rem 0;
+}
+
+.activity_title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: auto;
+  padding-bottom: 2rem;
+  text-align: center;
+}
+.activity_program {
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-between;
+  padding: 0.5rem 0;
+}
+
+.activity_card {
+  height: 310px;
+  width: 32%;
+  background-size: 100% 100%;
+  background-position: center;
+  border-radius: 2%;
+  background-color:rgba(0,0,0,.3);
+  box-shadow: inset 300px 0 300px rgba(0, 0, 0, 0.212);
+  
+}
+.activity_card:hover {
+  transform: scale(1.05);
+  transition: 1s;
+}
+.large_card {
+  width: 66%;
+}
+.activity_card_title {
+  margin: auto;
+  text-align: center;
+  line-height: 300px;
+  color: aliceblue;
+  font-weight: bold;
+  font-size: 1.25rem;
+  
+}
+.footer {
+  background-color: grey;
+}
+.footer_inner {
+  padding: 1rem 0;
+  text-align: right;
+}
+.autor {
+  color: white;
+  
+}
+.git {
+  text-decoration: none;
+  color: white;
+  border-bottom: 1px solid white;
+}
+@media(max-width: 1199px) {
+  .partner {
+    width: 50%;
+  }
+  .partner_description {
+    padding: 0rem 5rem 1rem ;
+  }
+  .activity_inner {
+    padding-bottom: 0.5rem;
+  }
+}
+@media(max-width: 500px) {
+  .header_nav {
+  padding: 2rem 0 1rem;
+  display: flex;
+  flex-direction: column-reverse;
+  }
+  .header_logo {
+    margin: auto;
+    text-align: center;
+    padding-top: 5rem;
+    font-size: 1.5rem;
+  }
+  .header_btn {
+    text-align: center;
+  }
+  .header_title {
+    font-size: 30px;
+  }
+  .header_subtitle { 
+    font-size: 1rem;
+  }
+  .container_inner {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .step {
+    width: 100%;
+    margin: 0.5rem 0;
+    height: 300px;
+    background-size: cover;
+    background-position: bottom;
+    border-radius: 2%;
+  }
+  .partner {
+    width: 100%;
+  }
+ .activity_program {
+   display: flex;
+   flex-wrap: wrap;
+   padding: 0;
+ }
+ .activity_card {
+   width: 100%;
+   height: 200px;
+   margin-bottom: 1rem;
+   background-position: top;
+   background-size: 100% ;
+   background-repeat: no-repeat;
+ }
+ .activity_card_title {
+  line-height: 200px;
+ }
+ .bg_center {
+   background-position: center;
+ }
+ .large_card {
+   background-size: 100% 100%;
+ }
+}
